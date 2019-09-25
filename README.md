@@ -33,7 +33,8 @@ A custom Preact Hook that provides a sensible alternative to useRef for storing 
 - `useRef` is weird. 
 - The fact that you have to access it via `.current` is strange.
 - You treat the object returned by `useInstance` just like you would `this` in a class component, so you're already familiar with how it works.
-- Use `useRef` if you're dealing with actual DOM elements—use `useInstance` for instance properties and methods.
+- Use `useRef` if you're dealing with actual DOM elements.
+- Use `useInstance` for instance properties and methods.
 
 ## Installation
 
