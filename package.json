@@ -33,7 +33,7 @@
   "scripts": {
     "toc": "doctoc README.md",
     "lint": "standard --parser babel-eslint --fix --env jest",
-    "clean": "rimraf node_modules",
+    "clean": "rimraf dist",
     "build": "microbundle src/index.js --sourcemap false --compress",
     "test": "jest src/__tests__",
     "test:watch": "yarn test --watch",
