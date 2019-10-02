@@ -38,7 +38,15 @@ A custom Preact Hook that provides a sensible alternative to useRef for storing 
 
 ## Installation
 
+***This package has [Preact 10+](https://github.com/preactjs/preact) as a peer dependency.***
+
 `npm install @preact-hooks/instance --save-dev` or `yarn add @preact-hooks/instance -D`
+
+You can also load it via the [unpkg](https://unpkg.com) CDN
+
+`https://unpkg.com/@preact-hooks/instance` will download the latest UMD bundle.
+
+All formats (UMD, CJS and ESM) are available in the dist folder inside the package.
 
 ## Docs
 
