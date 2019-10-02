@@ -6,8 +6,8 @@ import { render } from '@testing-library/preact'
 import useInstance from '..'
 
 // @from https://github.com/donavon/use-instance/blob/master/__tests__/index.test.js
-describe('`useInstance` hook', () => {
-  test('should default to an empty object given no parameters', () => {
+describe('useInstance', () => {
+  it('should default to an empty object given no parameters', () => {
     let self
 
     function Comp () {
@@ -19,7 +19,7 @@ describe('`useInstance` hook', () => {
     expect(self).toEqual({})
   })
 
-  test('should return optional object given one', () => {
+  it('should return optional object given one', () => {
     let self
 
     function Comp () {
@@ -31,7 +31,7 @@ describe('`useInstance` hook', () => {
     expect(self).toEqual({ foo: 'foo' })
   })
 
-  test('should return object given a "lazy" initialization function`', () => {
+  it('should return object given a "lazy" initialization function`', () => {
     let self
 
     function Comp () {
@@ -43,7 +43,7 @@ describe('`useInstance` hook', () => {
     expect(self).toEqual({ foo: 'foo' })
   })
 
-  test('should return the same instance object for every render`', () => {
+  it('should return the same instance object for every render`', () => {
     let self
 
     function Comp () {
@@ -60,7 +60,7 @@ describe('`useInstance` hook', () => {
     expect(self).toEqual({ symbol })
   })
 
-  test('should return the same instance object for every render given a function`', () => {
+  it('should return the same instance object for every render given a function`', () => {
     let self
 
     const symbol = Symbol('')
