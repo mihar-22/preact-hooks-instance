@@ -1,6 +1,6 @@
 {
   "name": "@preact-hooks/instance",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A custom Preact Hook that provides a sensible alternative to useRef for storing instance variables.",
   "main": "dist/hook.umd.js",
   "module": "dist/hook.modern.js",
