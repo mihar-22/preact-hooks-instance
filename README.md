@@ -40,7 +40,7 @@ A custom Preact Hook that provides a sensible alternative to useRef for storing 
 
 ***This package has [Preact 10+](https://github.com/preactjs/preact) as a peer dependency.***
 
-`npm install @preact-hooks/instance --save-dev` or `yarn add @preact-hooks/instance -D`
+`npm install @preact-hooks/instance` or `yarn add @preact-hooks/instance`
 
 You can also load it via the [unpkg](https://unpkg.com) CDN
 
